@@ -101,7 +101,7 @@ $ git clone git@github.com:MrRioja/nlw-setup.git
 $ cd nlw-setup
 
 # Vá para a pasta server
-$ cd tindev
+$ cd mobile
 
 # Instale as dependências
 $ npm install
