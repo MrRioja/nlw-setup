@@ -126,6 +126,8 @@ $ yarn start
 
 <img align="left" src="https://seeklogo.com/images/F/fastify-logo-370DF51F2E-seeklogo.com.png" alt="Fastify" height="75"/>
 
+<br><br><br><br>
+
 ## Autor
 
 <div align="center">
