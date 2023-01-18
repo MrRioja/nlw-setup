@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "tsx --watch src/server.ts"
   },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
   "dependencies": {
     "@fastify/cors": "^8.2.0",
     "@prisma/client": "^4.8.1",
