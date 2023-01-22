@@ -1,5 +1,5 @@
 import { HabitDay } from "./HabitDay";
-import { generateDatesFromYearBegging } from "../utils/generate-dates-from-year-begging.ts";
+import { generateDatesFromYearBegging } from "../utils/generate-dates-from-year-begging";
 
 const weekDays = ["D", "S", "T", "Q", "Q", "S", "S"];
 
