@@ -128,7 +128,7 @@ export function Habit() {
           )}
         </View>
 
-        {isDateInPast && (
+        {dayInfo!.possibleHabits.length > 0 && isDateInPast && (
           <Text className="text-white mt-10 text-center">
             Você não pode editar hábitos de uma data passada.
           </Text>
