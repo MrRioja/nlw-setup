@@ -33,7 +33,66 @@ Ocorreu do dia 16 ao dia 20 de Janeiro de 2023 e teve como intuito mostrar na pr
 
 ## Habits
 
-🚧 Em construção 🚧
+O Habits é um app para monitoramento de tarefas diárias para auxiliar seus usuários a rastrear suas atividades realizadas e não realizadas.
+
+O fluxo da aplicação é simples: o usuário cadastra os hábitos desejados indicando em quais dias da semana deverão ser realizados e todos os dias ele terá uma listas de hábitos de acordo com o dia atual, aonde ele irá indicar o status de cada hábito e a aplicação irá gerar um progresso diário que será ilustrado na barra de progresso e também nas cores dos quadrados que representam os dias onde cores mais claras representam números maiores de hábitos completos.
+
+A aplicação possui, além do backend, aplicação web e mobile, as quais serão ilustradas a seguir.
+
+### Habits - Aplicação web
+
+Ao acessar a home da aplicação web o usuário irá se deparar com a página abaixo aonde será exibido um botão para cadastro de um novo hábito e vários quadrados os quais representam dias passados, dia atual e dia futuro. Como podemos ver a seguir, cada dia possui uma cor diferente, onde:
+
+- Cinza indica que nenhum hábito foi realizado.
+- Cores mais escuras indicam pouco progresso nos hábitos diários.
+- Cores mais claras indicam muito progresso nos hábitos diários.
+- Cinza com opacidade reduzida indica dias futuros e não são clicáveis.
+
+![Home](.github/screenshots/web-home.png)
+
+Ao clicar no botão `Novo hábito`, o modal abaixo será exibido para o usuário inserir um título e os dias da semana em que o novo hábito deve ser realizado:
+
+![Alt text](.github/screenshots/web-habit-form.png)
+
+Ao clicar em algum dos dias as informações dele serão exibidas, por exemplo: a sua data numérica, o dia da semana, a barra de progresso e a lista de hábitos que devem ser realizados no respectivo dia da semana, conforme imagem a seguir:
+
+![Alt text](.github/screenshots/web-day-partial-completed.png)
+
+Note que o quadrado do dia acima é mais escuro do que o da imagem a seguir. Isso se deve ao fato de que no dia abaixo a porcentagem de hábitos realizados foi maior:
+
+![Alt text](.github/screenshots/web-day-full-completed.png)
+
+Com isso conhecemos todos os fluxos da interface web ao utilizarmos a aplicação. Deixo abaixo um GIF de demonstração da aplicação sendo utilizada aonde passo por todas as funcionalidades acimas citadas:
+
+![Alt text](.github/web-demo.gif)
+
+### Habits - Aplicação mobile
+
+As funcionalidades da aplicação mobile são as mesmas da web, portanto mostrarei as telas com menos explicações para evitar redundância e me atentarei somente à pequenos detalhes caso existam e sejam relevantes de serem citados.
+
+Assim como na web, ao acessar a aplicação o usuário irá se deparar com os 'quadradinhos' que representam os dias com as colorações baseadas em seus respectivos progressos, como vemos abaixo:
+
+|                           Splash Screen                           |                              Home vazia                               |                       Home com progresso                        |
+| :---------------------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------: |
+| <img src="./.github/screenshots/mobile-splash.png" width="250" /> | <img src="./.github/screenshots/mobile-empty-home.png" width="250" /> | <img src="./.github/screenshots/mobile-home.png" width="250" /> |
+
+Diferentemente da web, ao clicar em algum dia para ver os detalhes não teremos o popover com seus detalhes e sim o redirecionamento para uma tela aonde essas informações serão exibidas. A seguir veremos as telas aonde temos um dia sem hábitos vinculados, um dia com hábitos parcialmente concluídos e um dia totalmente concluído, respectivamente:
+
+|                               Dia sem hábitos                                |                            Dia parcialmente concluído                            |                           Dia totalmente concluído                            |
+| :--------------------------------------------------------------------------: | :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
+| <img src="./.github/screenshots/mobile-day-without-habit.png" width="250" /> | <img src="./.github/screenshots/mobile-day-partial-completed.png" width="250" /> | <img src="./.github/screenshots/mobile-day-full-completed.png" width="250" /> |
+
+Na Home e na tela de dia sem hábitos temos botão e link, respectivamente, que irá nos direcionar para o formulário de criação de um novo hábito.
+As informações necessárias são as mesmas da web e abaixo temos o fluxo de cadastro ilustrado:
+
+|                                 Form vazio                                 |                           Form preenchido                            |                               Cadastro concluído                               |
+| :------------------------------------------------------------------------: | :------------------------------------------------------------------: | :----------------------------------------------------------------------------: |
+| <img src="./.github/screenshots/mobile-new-habit-empty.png" width="250" /> | <img src="./.github/screenshots/mobile-new-habit.png" width="250" /> | <img src="./.github/screenshots/mobile-new-habit-completed.png" width="250" /> |
+
+Com isso concluímos nosso tour pela aplicação mobile! 🙂
+Assim como na web, deixo abaixo um GIF navegando pela aplicação e passando por todos seus fluxos e também a demonstração das animações presentes no App:
+
+<img src=".github/mobile-demo.gif" width="450" />
 
 ## Instalação
 
