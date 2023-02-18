@@ -177,17 +177,7 @@ $ yarn start
 
 ## Tecnologias
 
-<img align="left" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="75" />
-
-<img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1039px-Vitejs-logo.svg.png" alt="Vite" height="75" />
-
-<img align="left" src="https://www.svgrepo.com/show/353722/expo.svg" alt="Expo" height="100" />
-
-<img align="left" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="75" />
-
-<img align="left" src="https://seeklogo.com/images/F/fastify-logo-370DF51F2E-seeklogo.com.png" alt="Fastify" height="75"/>
-
-<br><br><br><br>
+[![My Skills](https://skillicons.dev/icons?i=react,nodejs,vite,ts)](https://skillicons.dev)
 
 ## Autor
 
